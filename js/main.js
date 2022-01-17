@@ -40,7 +40,9 @@ function dddd(){
 	document.getElementById("vidjaboxs").style.marginBottom = "20px";
 	document.getElementById("vidjaboxs").style.border = "2px black solid";
 }
-
+function cablets(){
+	window.location.href = 'heh.html';
+}
 
 
 

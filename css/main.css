@@ -1,5 +1,5 @@
 body{
-	background-color: :orange;
+	/* background-color: orange; */
 	color: #555;
 	font:16px/1.6em arial, helvetica, sans-serif;
 	margin:0;
@@ -137,12 +137,178 @@ margin-top:2px;
 	margin: auto;
 	overflow: hidden;
 }
+.bgclr455{
+	background-color:aliceblue;
+}
+.bgclr456{
+	background-color:lightskyblue;
+}
+.bgclr457{
+	/* background-color:bisque; */
+	width: 100%; 
+	/* min-height: 80vh; */
+	/* max-height: 90%; */
+	background-image: url("../beach2.png");
+	background-repeat:no-repeat;
+	/* background: url('../kitchen2.jpg') center center; */
+	background-size: cover; /* or contain depending on what you want */
+	/* background-repeat: no-repeat; */
+}
+.uygbtn{
+	min-width: 140px;
+	border-radius: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+.blackbut{
+	/* background-color: black;
+	color: whitesmoke; */
+	box-shadow: 0px 10px 14px -7px #111;
+	/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+	/* background-color: blue; */
+	/* color: whitesmoke; */
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial; 
+	font-weight:bold;
+	text-decoration:none;
+}
+.redbut{
+/* background-color: red;
+color: whitesmoke; */
+box-shadow: 0px 10px 14px -7px #111;
+/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+/* background-color: blue; */
+/* color: whitesmoke; */
+display:inline-block;
+cursor:pointer;
+font-family:Arial; 
+font-weight:bold;
+text-decoration:none;
+
+}
+.yellbut{
+/* background-color: yellow;
+color: black; */
+box-shadow: 0px 10px 14px -7px #111;
+/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+/* background-color: blue; */
+/* color: whitesmoke; */
+display:inline-block;
+cursor:pointer;
+font-family:Arial; 
+font-weight:bold;
+text-decoration:none;
+}
+.greenbut{
+/* background-color: green;
+color: whitesmoke; */
+box-shadow: 0px 10px 14px -7px #111;
+/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+/* background-color: blue; */
+/* color: whitesmoke; */
+display:inline-block;
+cursor:pointer;
+font-family:Arial; 
+font-weight:bold;
+text-decoration:none;
+}
+.bluebut{
+	/* background-color: blue;
+	 */
+	box-shadow: 0px 10px 14px -7px #111;
+	/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+	/* background-color: blue; */
+	/* color: whitesmoke; */
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial; 
+	font-weight:bold;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #3d768a; */
+}
+.bluebut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.bluebut:active {
+	position:relative;
+	top:1px;
+}
+.pinkbut{
+	/* background-color: pink;
+	color: black; */
+	box-shadow: 0px 10px 14px -7px #111;
+	/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+	/* background-color: blue; */
+	/* color: whitesmoke; */
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial; 
+	font-weight:bold;
+	text-decoration:none;
+}
+.pinkbut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.pinkbut:active {
+	position:relative;
+	top:1px;
+}
+.redbut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.redbut:active {
+	position:relative;
+	top:1px;
+}
+.greenbut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.greenbut:active {
+	position:relative;
+	top:1px;
+}
+.yellbut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.yellbut:active {
+	position:relative;
+	top:1px;
+}
+.blackbut:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.blackbut:active {
+	position:relative;
+	top:1px;
+}
+.restru{
+	font-family: 'Allerta Stencil';
+	font-size: 22px;
+	color: whitesmoke;
+	text-align: center;
+	padding-bottom: 25px;
+}
 #idmain{
 	float:left;
 width:70%;
 padding: 0 30px;
 box-sizing: border-box;
 }
+.addplusers{
+	padding-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* justify-content: center; */
+}
+
 .centeringer{
 	text-align: center;
 }
@@ -278,6 +444,9 @@ padding: 5px;
 }
 #aboutmain{
 	  	/*background-image: linear-gradient(to bottom right, #96b096, #e1e8e1);*/
+}
+.ttttstsxsss {
+	background-image: linear-gradient(to right, #223352, #243b55);
 }
 .mapresizer{
 	width: 75%;
